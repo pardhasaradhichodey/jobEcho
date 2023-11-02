@@ -1,0 +1,11 @@
+
+import './App.css';
+import HomePage from './pages/home/home.tsx';
+
+function App() {
+  return (
+    <HomePage />
+  );
+}
+
+export default App;
