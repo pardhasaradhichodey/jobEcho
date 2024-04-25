@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'library3am';
+    src: url('../../assets/Library\ 3\ am.otf');
+}
+.title{
+    color: #0077B5;
+    font-family: 'library3am';
+    font-size: 120px;
+    font-weight: bolder;
+}
+@media screen and (max-width:860px) {
+    .title{
+        font-size: 30px;
+    }
+    .subtitle{
+        font-size: 15px;
+    }
+}
+.subtitle{
+    color:#57e5ff;
+}
+.logo{
+    background-color: #0077B5;
+    width: 100%;
+    border-radius: 10px;
+}
